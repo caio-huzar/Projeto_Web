@@ -1,0 +1,5 @@
+@import '../Management.css';
+
+.management-page .eyebrow {
+  color: var(--color-primary);
+}

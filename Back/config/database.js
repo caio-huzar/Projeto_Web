@@ -1,9 +1,9 @@
 const { Sequelize } = require('sequelize');
 
 const sequelize = new Sequelize(
-    'seu_databsae',
+    'web',
     'postgres',
-    'sua_senha',
+    'zz1973',
     {
         host: 'localhost',
         dialect: 'postgres',

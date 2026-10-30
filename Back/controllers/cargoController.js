@@ -1,4 +1,4 @@
-const Cargo = require('../models/Cargo');
+const Cargo = require('../models/cargoModel');
 
 async function listar(req,res){
 
