@@ -27,6 +27,12 @@ body {
   background: var(--color-background);
 }
 
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 button,
 input {
   font: inherit;
@@ -34,7 +40,7 @@ input {
 
 .app-content {
   width: min(1120px, calc(100% - 40px));
-  min-height: calc(100vh - 73px);
+  flex: 1;
   margin: 0 auto;
 }
 

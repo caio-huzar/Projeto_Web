@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Footer from './components/Footer/Footer.jsx'
 import Header from './components/Header/Header.jsx'
 import Cargo from './pages/Cargos/Cargo.jsx'
 import Home from './pages/Home/Home.jsx'
@@ -15,6 +16,7 @@ function App() {
           <Route path="/cargos" element={<Cargo />} />
         </Routes>
       </main>
+      <Footer />
     </BrowserRouter>
   )
 }
